@@ -3,9 +3,11 @@
     padding: 0;
 }
 
-
-body {
-    text-align: center;
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .imagem {
