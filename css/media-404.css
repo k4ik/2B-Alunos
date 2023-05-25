@@ -1,0 +1,17 @@
+@media screen and (max-width: 320px) {
+    .imagem {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 425px) and (min-width: 375px){
+    .imagem {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 450px){
+    .imagem {
+        width: 20%;
+    }
+}

@@ -1,0 +1,124 @@
+@media screen and (max-width: 320px) {
+    .cabecalho-titulo {
+        font-size: 25px;
+        display: flex;
+        gap: 10px;
+    }
+
+    .cabecalho-lista {
+        display: none;
+    }
+
+    .escola-div-conteudo {
+        padding: 20px 0;
+        margin: 0;
+        font-size: 20px;
+        width: 90%;
+    }
+
+    .escola-imagem {
+        display: none;
+    }
+
+    .estudante-titulo {
+        font-size: 30px;
+    }
+
+    .estudante-foto {
+        width: 250px;
+    }
+
+    .estudante-nome {
+        font-size: 22px;
+    }
+
+    .estudante-icone {
+        width: 30px;
+    }
+
+    .estudante-todos {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width: 620px) and (min-width: 375px) {
+    .cabecalho-titulo {
+        font-size: 30px;
+        display: flex;
+        gap: 10px;
+    }
+
+    .cabecalho-lista {
+        display: none;
+    }
+
+    .escola-div-conteudo {
+        padding: 20px 0;
+        margin: 0;
+        font-size: 20px;
+        width: 90%;
+    }
+
+    .escola-imagem {
+        display: none;
+    }
+
+    .estudante-titulo {
+        font-size: 30px;
+    }
+
+    .estudante-foto {
+        width: 250px;
+    }
+
+    .estudante-nome {
+        font-size: 22px;
+    }
+
+    .estudante-icone {
+        width: 30px;
+    }
+
+    .estudante-todos {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 618px) {
+    .cabecalho-titulo {
+        font-size: 30px;
+        display: flex;
+        gap: 10px;
+    }
+
+    .escola-div-conteudo {
+        padding: 20px 0;
+        margin: 0;
+        font-size: 20px;
+        width: 90%;
+    }
+
+    .escola-imagem {
+        display: none;
+    }
+
+    .estudante-titulo {
+        font-size: 30px;
+    }
+
+    .estudante-foto {
+        width: 250px;
+    }
+
+    .estudante-nome {
+        font-size: 22px;
+    }
+
+    .estudante-icone {
+        width: 30px;
+    }
+
+    .estudante-todos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
