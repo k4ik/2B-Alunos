@@ -6,26 +6,26 @@
 .cabecalho {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: space-around;
 	background-image: linear-gradient(#424e61, #4ebfe9);
 	color: white;
-	padding: 20px;
+	padding: 20px 0;
 }
 
 .cabecalho-imagem {
-	width: 50%;
+	width: 100px;
 	display: block;
 	max-width: max-content;
 	height: auto;
 }
 
 .cabecalho-nav {
-	flex-grow: 1;
+	flex-grow: .1;
 	text-align: right;
 }
 
 .lista-cabecalho li a {
-	font-size: 24px;
+	font-size: 18px;
 	color: white;
 	text-decoration: none;
 	padding: 10px;
@@ -39,7 +39,6 @@
 
 main {
 	background-color: aliceblue;
-	padding: 20px;
 }
 
 .texto-boas-vindas {
@@ -112,6 +111,7 @@ main {
 	text-align: center;
 	padding: 3%;
 	font-size: 20px;
+	margin-top: 40px;
 }
 
 h2 {
@@ -142,4 +142,5 @@ footer {
 	background-color:#4ebfe9;
 	padding: 10px;
 	text-align: center;
+	margin-top: 30px;
 }
