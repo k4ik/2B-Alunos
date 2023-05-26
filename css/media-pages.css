@@ -1,0 +1,49 @@
+@media screen and (max-width: 320px){
+    .none {
+        display: none;
+    }
+
+    .cabecalho-imagem {
+        width: 60px;
+    }
+
+    .lista-cabecalho li a{
+        font-size: 12px;
+    }
+
+    .ImgBox {
+        width: 100%;
+    }
+
+    .informacoes-gerais ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
+        list-style: none;
+    }
+}
+
+@media screen and (max-width: 425px) and (min-width: 375px){
+    .none {
+        display: none;
+    }
+
+    .cabecalho-imagem {
+        width: 60px;
+    }
+
+    .lista-cabecalho li a{
+        font-size: 14px;
+    }
+
+    .ImgBox {
+        width: 100%;
+    }
+
+    .informacoes-gerais ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
+        list-style: none;
+    }
+}
