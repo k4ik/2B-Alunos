@@ -13,19 +13,17 @@
 }
 
 .cabecalho-imagem {
-	width: 100px;
-	display: block;
-	max-width: max-content;
-	height: auto;
+	width: 90px;
+
 }
 
-.cabecalho-nav {
-	flex-grow: .1;
-	text-align: right;
+.cabecalho-nav ul {
+	display: flex;
+	list-style: none;
 }
 
 .lista-cabecalho li a {
-	font-size: 18px;
+	font-size: 16px;
 	color: white;
 	text-decoration: none;
 	padding: 10px;
@@ -114,11 +112,11 @@ main {
 	margin-top: 40px;
 }
 
-h2 {
+.informacoes-gerais h2 {
 	margin-bottom: 10px;
 }
 
-ul {
+.informacoes-gerais ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -126,7 +124,7 @@ ul {
 	flex-wrap: wrap;
 }
 
-li {
+.informacoes-gerais li {
 	padding: auto;
 	margin-right: 20px;
 	margin-bottom: 20px;
