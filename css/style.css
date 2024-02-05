@@ -86,6 +86,9 @@ body {
 .estudante-foto {
     width: 150px;
     height: 200px;
+}
+
+.maria {
     object-fit: cover;
 }
 
