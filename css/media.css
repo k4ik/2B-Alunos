@@ -19,7 +19,9 @@
     }
 
     .estudante-foto {
-        width: 250px;
+        width: 200px;
+        height: 300px;
+        object-fit: cover;
     }
 
     .estudante-nome {
@@ -57,7 +59,8 @@
 
     .estudante-foto {
         width: 250px;
-    }
+        height: 350px;
+        object-fit: cover;    }
 
     .estudante-nome {
         font-size: 22px;
